@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "super-duper-mod",
+	"version": "${version}",
+	"name": "Super Duper Mod",
+	"description": "A little thing I made for my bro!",
+	"authors": [
+		"Aarohan"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/super-duper-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.aarohan.superdupermod.SuperDuperMod"
+		],
+		"client": [
+			"net.aarohan.superdupermod.SuperDuperModClient"
+		],
+		"fabric-datagen": [
+			"net.aarohan.superdupermod.SuperDuperModDataGenerator"
+		]
+	},
+	"mixins": [
+		"super-duper-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
