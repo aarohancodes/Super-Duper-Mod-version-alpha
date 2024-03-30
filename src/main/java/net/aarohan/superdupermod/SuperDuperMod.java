@@ -1,5 +1,7 @@
 package net.aarohan.superdupermod;
 
+import net.aarohan.superdupermod.item.ModItemGroups;
+import net.aarohan.superdupermod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +13,7 @@ public class SuperDuperMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
 	}
 }
