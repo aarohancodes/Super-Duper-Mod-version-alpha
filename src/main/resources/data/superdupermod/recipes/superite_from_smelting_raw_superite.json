@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 5,
+  "group": "superite",
+  "ingredient": {
+    "item": "supedupermod:raw_superite"
+  },
+  "result": "superdupermod:superite"
+}

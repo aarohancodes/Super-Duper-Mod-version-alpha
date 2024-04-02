@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "superdupermod:raw_superite"
+    }
+  },
+  "result": {
+    "item": "superdupermod:raw_superite_block"
+  }
+}

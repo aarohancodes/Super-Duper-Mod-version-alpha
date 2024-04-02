@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "superdupermod:superite_shard"
+    }
+  },
+  "result": {
+    "item": "superdupermod:superite"
+  }
+}

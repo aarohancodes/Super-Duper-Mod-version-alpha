@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "superdupermod:superite_block"
+    }
+  ],
+  "result": {
+    "item": "superdupermod:superite",
+    "count": 9
+  }
+}

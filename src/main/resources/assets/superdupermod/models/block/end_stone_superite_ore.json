@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "superdupermod:block/end_stone_superite_ore"
+  }
+}

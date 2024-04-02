@@ -3,7 +3,7 @@
 	"id": "super-duper-mod",
 	"version": "${version}",
 	"name": "Super Duper Mod",
-	"description": "A little thing I made for my bro!",
+	"description": "A little thing I made!",
 	"authors": [
 		"Aarohan"
 	],
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/super-duper-mod/icon.png",
+	"icon": "assets/superdupermod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

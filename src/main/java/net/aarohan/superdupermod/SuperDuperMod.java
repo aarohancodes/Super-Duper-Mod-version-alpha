@@ -1,5 +1,6 @@
 package net.aarohan.superdupermod;
 
+import net.aarohan.superdupermod.block.ModBlocks;
 import net.aarohan.superdupermod.item.ModItemGroups;
 import net.aarohan.superdupermod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -15,5 +16,6 @@ public class SuperDuperMod implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

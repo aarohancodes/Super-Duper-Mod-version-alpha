@@ -4,5 +4,13 @@
   "item.superdupermod.raw_superite_shard": "Raw Superite Shard",
   "item.superdupermod.superite_shard": "Superite Shard",
 
-  "itemgroup.super": "Super Items"
+  "itemgroup.super": "Super Items",
+
+  "block.superdupermod.superite_block": "Block of Superite",
+  "block.superdupermod.raw_superite_block": "Block of Raw Superite",
+
+  "block.superdupermod.superite_ore": "Superite Ore",
+  "block.superdupermod.deepslate_superite_ore": "Deepslate Superite Ore",
+  "block.superdupermod.nether_superite_ore": "Nether Superite Ore",
+  "block.superdupermod.end_stone_superite_ore": "End Stone Superite Ore"
 }

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 250,
+  "experience": 5,
+  "group": "superite",
+  "ingredient": {
+    "item": "superdupermod:raw_superite"
+  },
+  "result": "superdupermod:superite"
+}
